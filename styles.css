@@ -629,4 +629,19 @@ body{
   color:#ffffff;
 }
 
+/* Dark text inside cards on dark sections */
+
+#process .content-card,
+.contact-section .content-card{
+  color:#111;
+}
+
+#process .content-card p,
+#process .content-card h3,
+#process .content-card .step-number,
+.contact-section .content-card p,
+.contact-section .content-card h3{
+  color:#111;
+}
+
 }
