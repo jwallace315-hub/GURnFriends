@@ -225,10 +225,23 @@ body{
   color:#f5f5f5;
 }
 
-#process p,
-#process .section-subtext,
-#process .step-number{
-  color:rgba(255,255,255,0.72);
+/* Keep section header text light */
+#process > .section-inner > .section-heading,
+#process > .section-inner > .section-heading h2,
+#process > .section-inner > .section-heading p{
+  color:#f5f5f5;
+}
+
+/* Make card text dark */
+#process .content-card,
+#process .content-card p,
+#process .content-card h3,
+#process .content-card .step-number,
+
+.contact-section .content-card,
+.contact-section .content-card p,
+.contact-section .content-card h3{
+  color:#111111;
 }
 
 .contact-section{
