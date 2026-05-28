@@ -166,7 +166,7 @@ body{
 
   padding:16px 30px;
 
-  border-radius:999px;
+  border-radius:8px;
 
   text-decoration:none;
 
@@ -283,7 +283,7 @@ body{
   width:70%;
   height:4px;
 
-  border-radius:999px;
+  border-radius:8px;
 
   background:
     linear-gradient(
