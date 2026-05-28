@@ -310,7 +310,7 @@ body{
 
   border:1px solid rgba(98,0,234,0.08);
 
-  border-radius:28px;
+  border-radius:12px;
 
   padding:35px;
 
@@ -418,7 +418,7 @@ body{
 
   object-fit:cover;
 
-  border-radius:24px;
+  border-radius:12px;
 
   display:block;
 
