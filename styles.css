@@ -191,30 +191,16 @@ body{
 .section{
   position:relative;
 
+  width:100%;
+
+  padding:120px 0;
+}
+
+.section-inner{
   max-width:1400px;
   margin:auto;
 
-  padding:120px 30px;
-}
-
-/* Decorative top line */
-.section::before{
-  content:"";
-
-  position:absolute;
-  top:60px;
-  left:30px;
-
-  width:120px;
-  height:4px;
-
-  border-radius:999px;
-
-  background:linear-gradient(
-    90deg,
-    var(--purple),
-    var(--orange)
-  );
+  padding:0 30px;
 }
 
 /* Alternate backgrounds */
