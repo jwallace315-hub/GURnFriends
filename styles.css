@@ -329,7 +329,7 @@ body{
     0 25px 60px rgba(0,0,0,0.08);
 }
 
-/* Decorative corner gradient */
+/* Decorative corner gradient
 .content-card::before{
   content:"";
 
@@ -348,6 +348,7 @@ body{
       var(--orange)
     );
 }
+*/
 
 .large-card{
   font-size:1.15rem;
@@ -611,5 +612,21 @@ body{
   .nav-toggle:checked + .nav-toggle-label + .nav-links{
     display:flex;
   }
+
+#process .content-card,
+.contact-section .content-card{
+  background:
+    rgba(255,255,255,0.06);
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+
+  backdrop-filter:blur(8px);
+}
+
+#process h2,
+.contact-section h2{
+  color:#ffffff;
+}
 
 }
